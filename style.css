@@ -122,3 +122,14 @@ footer {
   margin: auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
+
+html, body {
+  height: 100%;              /* isi full layar */
+  margin: 0;
+  display: flex;
+  flex-direction: column;    /* susunan ke bawah: nav, main, footer */
+}
+
+main {
+  flex: 1;                   /* bagian isi utama melar dorong footer ke bawah */
+}
